@@ -1,0 +1,9 @@
+x = 20
+y = 0
+while(y != x) :
+    try : 
+        y = int(input("Number: "))
+    except :
+        print("Wrong number ")
+else:
+    print("horay")
