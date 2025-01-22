@@ -1,0 +1,15 @@
+#Try/Except
+inputflag = -1
+while(inputflag):
+    try :
+        x = int(input("Number: " ))
+    except:
+        print("Not a number")
+        inputflag = -1
+    else:
+        inputflag = 0
+        print(x)
+        print(type(x))
+        z = 7+x
+        print(z)
+print("done")
