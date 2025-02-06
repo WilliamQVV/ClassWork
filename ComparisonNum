@@ -3,7 +3,8 @@
 the_num = 10
 
 def main():
-    user_input = input("Enter a number: ")
+    print("Starting coding challenge")
+    user_input = input("Enter a number(1-9): ")
     try:
         user_input = int(user_input)
     except:
