@@ -1,0 +1,16 @@
+#This code will compare user input with the set number
+#It uses try/except and you win if you get the number right
+the_num = 10
+
+def main():
+    user_input = input("Enter a number: ")
+    try:
+        user_input = int(user_input)
+    except:
+        print("Not a number, try again")
+    while(user_input != the_num):
+        print("Try again")
+        main()
+    print("You win!")
+    
+main()
