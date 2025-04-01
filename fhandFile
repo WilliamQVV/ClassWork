@@ -1,0 +1,4 @@
+fhand = open(text-file-matrix.txt')
+print(fhand)
+for w in fhand:
+  print(w)
