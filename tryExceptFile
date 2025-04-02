@@ -1,0 +1,6 @@
+try:
+    xfile = open('text-file-matrix2.txt')
+    print(xfile)
+    
+except:
+    print("file does not exist")
