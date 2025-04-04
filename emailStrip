@@ -1,0 +1,8 @@
+xfile = open('text-file-mail-short.txt')
+for line in xfile:
+    line = line.rstrip()
+    if(line.startswith("From:")):
+           line = line.rstrip()
+           line = line.lstrip("From: ")
+           print(line)
+           
