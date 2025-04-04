@@ -1,0 +1,6 @@
+xfile = open('text-file-matrix.txt')
+
+whale = xfile.read()
+print(whale)
+print(len(whale))
+print(whale[191:298])
