@@ -1,0 +1,4 @@
+xfile = open('text-file-mail-short.txt')
+for line in xfile:
+    line = line.rstrip()
+    print(line)
